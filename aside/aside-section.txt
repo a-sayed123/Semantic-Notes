@@ -1,0 +1,35 @@
+* section is a branched content meaning .
+* aside is an independent related content .
+--------------------------------------------------
+-- SECTION
+--------
+• Part of the main content flow.
+
+• The user needs it to understand the primary topic.
+
+• Deleting it removes part of the content itself.
+
+-- Examples:
+- Features section
+- Hourly forecast
+- Comments section
+- Product specifications
+
+-- ASIDE
+------
+• Related but secondary content.
+
+• Useful but not required to understand the main content.
+
+• Deleting it does not break the primary content.
+
+Examples:
+- Related articles
+- Sidebar navigation
+- Author bio
+- Advertisements
+- Extra recommendations
+
+-- Golden Rule:
+• If removing it harms understanding → section.
+• If removing it only removes extra context → aside.

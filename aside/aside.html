@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoundStream App</title>
+  </head>
+  <style>
+    *::before,
+    *::after,
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    ul{ list-style: none;  }
+    a{ text-decoration: none;   }
+    button{
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+  </style>
+  <body>
+    
+    <header class="header" id="header">
+      <h1 class="header__title">SoundStream App</h1>
+    </header>
+
+    <main class="main" id="main">
+      <section class="discover">
+        <h2 class="discover__title">Discover</h2>
+        <section class="most-listened">
+          <h3 class="most-listened__title">Today's most listened-to albums</h3>
+          <div class="albums">
+            <article class="card-1">
+              <h4 class="album-name">album 1 Name</h4>
+              <div class="card__icon">
+                <img src="#" alt="" class="img-cover" />
+              </div>
+              <p class="singer-name">singer 1 name</p>
+            </article>
+            <article class="card-2">
+              <h4 class="album-name">album 2 Name</h4>
+              <div class="card__icon">
+                <img src="#" alt="" class="img-cover" />
+              </div>
+              <p class="singer-name">singer 2 name</p>
+            </article>
+            <article class="card-3">
+              <h4 class="album-name">album 3 Name</h4>
+              <div class="card__icon">
+                <img src="#" alt="" class="img-cover" />
+              </div>
+              <p class="singer-name">singer 3 name</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="suggeste-song">
+          <h3 class="suggeste-song__title">Suggested Songs</h3>
+          <div class="songs">
+            <article class="card-1">
+              <h4 class="album-name">album 1 Name</h4>
+              <div class="card__icon">
+                <img src="#" alt="" class="img-cover" />
+              </div>
+              <p class="singer-name">singer 1 name</p>
+            </article>
+            <article class="card-2">
+              <h4 class="album-name">album 2 Name</h4>
+              <div class="card__icon">
+                <img src="#" alt="" class="img-cover" />
+              </div>
+              <p class="singer-name">singer 2 name</p>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <aside class="aside" id="aside">
+      <section class="logo">
+        <h2 class="sr-only">SoundStream App Logo</h2>
+        <div class="logo"><img src="#" alt="" class="img-cover" /></div>
+      </section>
+        <!-- for this i will use the semantic elementis specifically initialted for this role it is <nav> -->
+        <nav class="navbar" id="navbar">
+          <ul class="flex-items">
+            <li class="flex-item">
+              <a href="#home" class="home">Home</a>
+            </li>
+            <li class="flex-item">
+              <a href="#menu" class="menu">Menu</a>
+            </li>
+            <li class="flex-item">
+              <a href="#library" class="library">Library</a>
+            </li>
+            <li class="flex-item">
+              <button type="button" class="playList">Playlist</button>
+              <section class="playslists-select hide">
+                <h4 class="sr-only">Playlists</h4>
+                <ul class="list-items">
+                  <li class="list-item">
+                    <button type="button" class="item__btn">playlist 1</button>
+                  </li>
+                  <li class="list-item">
+                    <button type="button" class="item__btn">playlist 2</button>
+                  </li>
+                  <li class="list-item">
+                    <button type="button" class="item__btn">playlist 3</button>
+                  </li>
+                </ul>
+              </section>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </aside>
+
+    <footer class="footer" id="footer">
+      <ul class="flex-items">
+        <li class="flex-item">
+          <button type="button" class="item__btn" aria-label="Play">
+            <div class="btn__icon"><img src="" alt="" class="img-cover" /></div>
+          </button>
+        </li>
+        <li class="flex-item">
+          <button type="button" class="item__btn" aria-label="Pause">
+            <div class="btn__icon"><img src="" alt="" class="img-cover" /></div>
+          </button>
+        </li>
+        <li class="flex-item">
+          <button type="button" class="item__btn" aria-label="Next">
+            <div class="btn__icon"><img src="" alt="" class="img-cover" /></div>
+          </button>
+        </li>
+        <li class="flex-item">
+          <button type="button" class="item__btn" aria-label="Previous">
+            <div class="btn__icon"><img src="" alt="" class="img-cover" /></div>
+          </button>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

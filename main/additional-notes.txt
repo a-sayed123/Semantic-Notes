@@ -1,0 +1,13 @@
+* if we ve a multible main tag to save memory complexity to do not use another document we use 
+another main tag but it must be hidden so there is two ways to hide it from UI and accessiblity tree 
+
+first is in external stylesheet put display none ,
+second is to put a hidden attribute in the main tag ,
+
+which way is more effeciant an secure ?
+
+- it is the second as first one in css so the hidden main tag is visible for Dom tree imagine that the 
+browser build a Dom tree for more than main tag it will make a memory complexity and huge time complexity 
+and imagine that the internt is slow or user closed using css so you put a structured behavior in a 
+style behavior but in second way you remove it in initialization and
+in main tags toggle you remove and add in the strucure no in style . 

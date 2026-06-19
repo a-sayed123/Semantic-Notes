@@ -1,0 +1,7 @@
+• article is an independent content it can be used in anywhere with the same meaning and content .
+
+• section is a meaningful part of the parent and it depends on his parent meaning  as it serve a meaning of its parent .
+
+
+article = self-contained meaning
+section = contextual meaning

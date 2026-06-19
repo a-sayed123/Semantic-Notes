@@ -1,0 +1,1 @@
+using display none to hide a main tag use hidden attribute

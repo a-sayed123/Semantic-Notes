@@ -1,0 +1,8 @@
+*  Avoid using img without alt even if it is empty alt="" to close any chance for the browser to explain it and make a bad UX .
+
+* Avoid using section without heading or accessibility name to make notice for browser this is a role="region" in my page not just a generic element like div so if you have a section without heading or accessibility name it's cleaner and semantic to use divs .
+
+* It is absolutely important to not put section in a address it is very wrong .
+
+
+

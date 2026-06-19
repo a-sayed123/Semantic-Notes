@@ -1,0 +1,9 @@
+Avoid using an article element as a generic container.
+
+Before using <article>, ask yourself:
+
+"If I move this content to another page, website, or context, will it still make sense on its own?"
+
+If the answer is yes, <article> is probably the right choice.
+
+If the answer is no, consider whether a <section> or a generic container would be more appropriate and efficient .

@@ -1,0 +1,4 @@
+* section is a thematic grouping it has a subtopic of its parent topic it complete the meaning of the page and it is a part of it so in accessibility tree has a Role Name .
+
+* div is just a container has no meaning it is used for layout design and styling and do not has role or name in accessibility tree as it is not serve meaning it just a styling container .
+

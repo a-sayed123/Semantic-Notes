@@ -1,0 +1,46 @@
+                            <main>
+-- Notes: 
+* one document must contains a one shown main tag .
+
+-- Usage:
+* it used to put the main content in it 
+
+* How can i know that this element is part of the main or not ?
+
+--> Ask yourself if i removed this element is the main content will be effected ? 
+if the purpose that user come for it will miss a part of it ? 
+
+if yes -> this is a child of main element .
+if removed → affects core user goal of the page .
+
+
+if no -> this is a child of another element .
+
+
+------------------
+
+<main>
+
+-- Purpose:
+Contains the primary content that the user came to the page for.
+
+-- Core Rule:
+Ask yourself:
+
+"Does removing this break the user's main goal?"
+
+YES →
+→ belongs inside <main>
+
+NO →
+→ check if it's related but not required:
+    → <aside>
+
+NO + structural role →
+    → outside <main> (header/footer/nav)
+
+-- Examples:
+- article content → main
+- weather data → main
+- related links → aside
+- navigation → outside main

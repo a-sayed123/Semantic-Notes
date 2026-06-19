@@ -1,0 +1,10 @@
+					<aside>
+
+* Notes: aside is not just for sidebars it created for all related content to the main content so you can use it in every place in the page that has a related content like advertisements author story and son on .
+
+* Usage :
+
+for every related content ... 
+
+always ask your self if i removed this tag is the content will affected ? if no it is an aside .
+

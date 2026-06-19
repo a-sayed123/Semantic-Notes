@@ -1,0 +1,19 @@
+
+header-vs-div
+
+<header> is not valuable because of styling.
+
+<header> is valuable because it identifies the introductory content
+of a page, article, section, or other sectioning content.
+
+Outside sectioning content:
+→ acts as a banner landmark.
+
+Inside sectioning content:
+→ loses banner landmark semantics
+→ keeps structural semantics.
+
+Use div when you only need a container.
+
+Use header when the content represents the introduction
+or metadata of a section/page/article.
