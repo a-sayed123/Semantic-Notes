@@ -1,1 +1,1 @@
-* Avoid put this tag in footer header address .
+* Avoid put this tag in footer header address tags.

@@ -1,0 +1,17 @@
+                <footer>
+
+* Notes:
+-- Footer represents concluding, metadata, or related information for its nearest sectioning/root content.
+
+-- Footer is the end of the parent it has the meaning of " This is my conclusion of this scoop "
+    it contains information about the author of the section, copyright data or links to related documents .
+
+-- When it is a directly child of body tag or main tag it take the landmark of contentInfo in a11y tree .
+
+* Usage:
+
+• Enclose information about the author in an <address> element that can be included into the <footer> element.
+• When the nearest ancestor sectioning content or sectioning root element 
+    is the body element the footer applies to the whole page.
+
+• The <footer> element is not sectioning content and therefore doesn't introduce a new section in the outline.

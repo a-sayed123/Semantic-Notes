@@ -1,0 +1,16 @@
+Find the nearest ancestor.
+
+If the nearest relevant ancestor is:
+- article
+- section
+- nav
+- aside
+
+=> footer belongs to that section
+=> no contentinfo landmark
+
+Otherwise
+
+=> footer is page-level footer
+=> contentinfo landmark
+
