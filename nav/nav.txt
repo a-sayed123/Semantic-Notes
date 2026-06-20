@@ -1,0 +1,25 @@
+                    <nav>
+
+* Notes: 
+-- aria-labelledby does not make the heading visible.
+
+The heading is already visible.
+
+aria-labelledby associates the heading text
+with the landmark as its accessible name.
+
+Without it:
+- heading and landmark are separate.
+
+With it:
+- the heading becomes the landmark's name.
+
+- so we need to put is or distingush every landmark as every nav has a role="Navigation" 
+
+so it will make noisy to hear Navigation Navigation Navigation put it will more clear and penifit to 
+
+our web page UX to put aria-label in every nav but if every nav has a heading we do not have to repeat 
+it into aria-label we can link it with aria-labelledby .
+
+* Usage: 
+
