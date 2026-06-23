@@ -1,0 +1,10 @@
+                <a>
+
+* this is the tag is responsile for navigation in web pages .
+
+* his a11y landmark is link .
+
+Usage: 
+
+-- it uses for link to another sites , files , video and images.
+-- it uses for media links like Gmail twiter facebook linkedin in specific URLs.

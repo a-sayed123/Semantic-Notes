@@ -42,6 +42,6 @@
 <img>
 
 <form>
-label
-input
+<label>
+<input>
 ---------------------------

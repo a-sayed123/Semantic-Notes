@@ -1,0 +1,8 @@
+1- avoid useing javascript in anchor tag this is a big security bug .
+
+2- avoid put an img in anchor tag without aria-label in anchor tag tha announce the user what happening 
+    and alt attribute that describes the image.
+
+3- avoid using _blamk without noopener .
+
+4- avoid put Untrusted link without rel=".. nofollow" .
