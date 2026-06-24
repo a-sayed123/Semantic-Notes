@@ -1,0 +1,24 @@
+* aria-labeldby is change or put the name of element in a11y tree .
+* aria-describedby is change the additional describtion in a11y tree .
+
+* aria-controls: تحدد الهدف الجغرافي للزر.
+
+* aria-live: تراقب التحديثات الصوتية الفورية.
+
+* aria-labelledby: تمنح الاسم القصير (الهوية).
+
+* aria-describedby: تمنح الشرح الطويل (السياق والتحذير).
+
+* <button> يمثل عنصرًا تفاعليًا واحدًا في شجرة الوصول (Accessibility Tree)،
+ لذلك أي عناصر Semantic داخله تُعامل كعناصر Presentation،
+ ويبقى فقط الاسم (Accessible Name) والمحتوى النصي الذي يصف الزر.
+
+* هل أنا أختار عنصرًا من مجموعة؟
+
+➡️ aria-selected
+
+أم:
+
+هل أضع علامة صح على هذا العنصر؟
+
+➡️ aria-checked

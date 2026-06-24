@@ -1,0 +1,69 @@
+* avoid using image without specify its width and height in its tag to save 
+    his place in layout so if there any problem happend for image the layout will not be affected 
+    image you specified its size in css then image dropped will be problem with layout
+        or image a big image not loaded and user is in your page once it be loaded 
+            will be bad UX.
+    --> but this behavior with the sectioning image and big important image .
+    --> by the way this image you don′t has to specifiy responsive design for it as 
+            the Browser don′t just undestand a solid size it undestand a percent behind this amounts
+
+            for example :-
+            <img
+                src="hero.jpg"
+                width="1600"
+                height="900"
+                alt=""
+            >
+                        size = 16:9 from screen width
+
+            .hero-image{
+                width:100%;
+                height:auto;
+            } --> by this css style the responsive usualy ended .
+
+            when i have to put a media queiry if you want to change this percentages .
+
+* avoid use old formats that make a huge memory comlextiy so it make time complextiy whene Browser load it and waste user network MB.
+ so the best practise is to convert to the best formets
+
+    ( live , photografic ) --> for this type of image use Raster formatt 
+                --> best Raster formets is AVIF WEBP .avif .webp so every another raster format convert it to them by this site
+                            (squoosh.app) 
+        ---> but for icons or meaningfully photos that is not SVG don′t convert it search in SVG libraries for the nearst 
+                SVG code that draw nearst shape for this image - don′t worry you will find in this it has a huge codebases-
+                this is the best four libraries for searching ....
+               
+                tabler.io/icons --> https://tabler.io/icons
+                heroicons.com --> https://heroicons.com/
+                boxicons.com --> https://boxicons.com/ 
+                iconify.design --> https://iconify.design/
+
+                !!! warns ---> احذر: لو وجدت داخل الكود عنصر اسمه 
+                <image> يحمل مسار base64 (نص طويل جداً ومقزز)، 
+                فهذا يعني أن الأيقونة ليست مرسومة برمجياً بل هي صورة بكسل "محقونة" داخل ملف SVG، 
+                وهذا فخ ترفضه عقولنا الدفاعية فوراً!
+
+---> How to use SVG (XML code) :
+        1 --> inline SVG --> copying SVG (XML) code and paste it in HTML.
+            ** this way uses when you want to put a pseudo classes in it .
+
+            !!! warns don′t accept image from users as a SVG and if you have to do this you have
+                        to pure it in spcilizied libraries and programs 
+                        and after pure it use the second way to use SVG as it is more secure .
+
+
+        2 --> SVG as a file --> copying copying SVG (XML) code and paste it in external file his then name it 
+                                the name of image like dropdown then put SVG format (dropdown.svg).
+
+                            !warns if you used this way you can not style this SVG the Browser don′t
+                                execute like normal XML code it execute it as an image just an image 
+                                    but in first way (inline SVG) it is a noraml XML code so 
+                                        it will be executed and every thing in it will affect the page 
+                                        image in it a phising script what will happend ?
+
+            ## in conclusion --- realic and detaliable image use avif webp 
+                                meaningfully image and icons .. etc use SVG if you will style it 
+                                    use inline SVG but be curful in this way use pured XML code if you
+                                    won′t style SVG for securty use it as a file and put it in img tag .
+
+* don′t accept anything from user before filter and pure and secure it perfectly                           

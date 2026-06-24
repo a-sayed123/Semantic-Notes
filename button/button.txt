@@ -1,0 +1,9 @@
+                        <button>
+
+* Notes: 
+        • This tag is created as it has a meaning it warns the browser and screen readers as this is a button do something .
+            So we can not use div by js to replace it it is right they will make the same behavior with the ordianry user but 
+            this will be a big problem with a11y tree screen readers search engains .
+        
+
+* Usage: 

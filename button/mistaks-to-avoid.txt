@@ -1,0 +1,38 @@
+* avoid using button without specify his type .
+
+* always don′t use type="reset" use type="button" then in click show confraim if the user click remove in comfraim 
+then reset all of the controls .
+
+* if the accessibility name of the button (button value or arialabel, arialabeledby - for img -) you can link a 
+    describtion by aria-describedby="describtion-element-id"
+
+for example :
+
+    <button>delete profile</button> or <button aria-label="delete profile"><img .../></button>
+
+    --> but you want to add warnings or more details out of name role state in a11y tree 
+            you can add a describtion for element by using aria-describedby and element id
+    
+    <button aria-describedby="warnings">delete profile</button> 
+
+    <button aria-label="delete profile" aria-describedby="warnings"> 
+        <img alt="" .../> 
+    </button>
+
+    <p id="warnings">Are you want to delete your profile premenantly</p> 
+        --> this describtion can be anywhere and you can use it.
+
+* avoid using img button (button only contain an image) without aria-labeledby aria-label text element inside the button and give it sr-only class
+            .. what is the best practise it is using a sr-only with a friendly element like span in button > img 
+                but why ?
+                as the is an old browsers or screen readers or search engines possible translate this dom text only not a11y tree 
+                so using sr-only is required to make button capability and reliable with every technology
+
+* avoid give button tag size less than 44x44 .
+
+* avoid using focus pseudo class as it can make problem if you removed the default outline 
+with keybourd user he will not be able to se where he are an if you used it it will appear for 
+every one so for the regural user will annoued with this outline so use focus-visible it will be more
+clear it will show the style for irregural users like voice and keybourd users so regural and irregural users 
+will be given a best UX.
+

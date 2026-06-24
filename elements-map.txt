@@ -1,3 +1,5 @@
+////////// HTML gives behavior. ARIA gives meaning. \\\\\\\\\\\\\
+
 مستويات البحث 
 
 المستوى الأول :-
@@ -37,8 +39,8 @@
 <article> ✔️
 <aside> ✔️
 
-<button>
-<a>
+<button> ✔️
+<a> ✔️
 <img>
 
 <form>

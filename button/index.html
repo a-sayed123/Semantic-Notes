@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button</title>
+  </head>
+  <body>
+    <div class="modal">
+      <button
+        type="button"
+        aria-expanded="false"
+        aria-haspopup="dialog"
+        aria-controls="dialog"
+      >
+        <div class="btn__img"><img src="#" alt="" class="img-cover" /></div>
+        <span class="title">Open modal</span>
+      </button>
+
+      <section class="modal_list" id="dialog" hidden>
+        <h2 class="title">Modal title</h2>
+        <ul class="list-items" role="listbox">
+            <li class="list-item" role="option">option 1</li>
+            <li class="list-item" role="option">option 2</li>
+            <li class="list-item" role="option">option 3</li>
+        </ul>
+        <button id="close_modal" type="button">close Modal</button>
+      </section>
+    </div>
+  </body>
+</html>
