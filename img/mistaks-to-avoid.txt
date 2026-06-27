@@ -19,6 +19,7 @@
             .hero-image{
                 width:100%;
                 height:auto;
+                aspect-ratio: attr(width) / attr(height);
             } --> by this css style the responsive usualy ended .
 
             when i have to put a media queiry if you want to change this percentages .
@@ -66,4 +67,11 @@
                                     use inline SVG but be curful in this way use pured XML code if you
                                     won′t style SVG for securty use it as a file and put it in img tag .
 
-* don′t accept anything from user before filter and pure and secure it perfectly                           
+* don′t accept anything from user before filter and pure and secure it perfectly  
+
+* Alt attribute is not exist in svg tag we use title tag in it and give title id then
+        use aria-labeledby then put title id in it .
+
+        <svg aria-labeledby="title_content">
+            <title id="title_content">Sunny Day</title>
+        </title>

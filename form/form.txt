@@ -1,0 +1,25 @@
+                <form>
+* data page controller
+
+semantic :
+<form> =  user interaction region whose purpose is collecting and submitting data.
+
+Form must have an Accessible name to know the user what is his meaning in the page .
+A request configuration object.
+
+action      → destination
+method      → transport method
+enctype     → packaging strategy
+novalidate  → validation strategy
+target      → response 
+
+A form is not just a data sender.
+
+It is a configurable request system with:
+
+- defaults
+- local overrides
+- validation rules
+- transport rules
+- response destinations.
+

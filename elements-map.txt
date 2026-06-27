@@ -41,7 +41,7 @@
 
 <button> ✔️
 <a> ✔️
-<img>
+<img> ✔️
 
 <form>
 <label>

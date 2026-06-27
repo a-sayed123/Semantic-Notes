@@ -1,0 +1,3 @@
+attr() --> function in CSS
+
+هذه دالة لقراءة Attribute من HTML داخل CSS، وتستخدم غالبًا مع content
